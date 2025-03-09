@@ -1,0 +1,32 @@
+{
+  "name": "anki-playground",
+  "version": "1.0.0",
+  "description": "A collection of Anki tools, utilities and applications",
+  "private": true,
+  "workspaces": [
+    "anki-card-generator"
+  ],
+  "scripts": {
+    "start": "cd anki-card-generator && npm start",
+    "build": "cd anki-card-generator && npm run build",
+    "test": "cd anki-card-generator && npm test",
+    "deploy": "cd anki-card-generator && npm run deploy",
+    "predeploy": "cd anki-card-generator && npm run predeploy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/username/anki-playground.git"
+  },
+  "keywords": [
+    "anki",
+    "flashcards",
+    "spaced-repetition",
+    "learning"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/username/anki-playground/issues"
+  },
+  "homepage": "https://github.com/username/anki-playground#readme"
+}
