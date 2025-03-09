@@ -35,9 +35,6 @@ package-lock.json
 ehthumbs.db
 Thumbs.db
 
-# Memory Bank (personal project notes)
-memory-bank/
-
 # Python
 __pycache__/
 *.py[cod]
